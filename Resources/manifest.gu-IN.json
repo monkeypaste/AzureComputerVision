@@ -1,0 +1,13 @@
+{
+  "title": "નીલમણિકા કમ્પ્યુટર દ્રષ્ટિ",
+  "description": "આપેલ છબી વિશે વર્ણનાત્મક માહિતી પ્રદાન કરે છે",
+  "version": "1.0.2.0",
+  "author": "Monkey",
+  "guid": "56024047-fe88-412d-aa65-1878ff088879",
+  "packageType": "Dll",
+  "readmeUrl": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/README.md",
+  "projectUrl": "https://github.com/monkeypaste/AzureComputerVision",
+  "packageUrl": "https://github.com/monkeypaste/AzureComputerVision/releases/download/v1.0.2.0/v1.0.2.0.zip",
+  "iconUri": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/icon.png",
+  "tags": "કમ્પ્યુટર વિઝન, ઇમેજ ડિટેક્શન, ઇમેજ પ્રોસેસિંગ, એઝ્યુર, માઇક્રોસ .ફ્ટ, ot નોટેશન, વર્ગીકરણ"
+}

@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+    <Platforms>$(DefaultPlatforms)</Platforms>
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icon.png" />
+    <None Remove="manifest.json" />
+    <None Remove="manifest_declaritive.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\MonkeyPaste.Common.Plugin\MonkeyPaste.Common.Plugin.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CustomToolNamespace>AzureComputerVision</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(PushPlugins)' == 'True'">
+    <ItemGroup>
+      <BuildFiles Include="$(TargetDir)\*.*" />
+      <ProjectFiles Include="$(ProjectDir)\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(BuildFiles)" DestinationFolder="$(PluginTargetDir)\$(ProjectName)\" OverwriteReadOnlyFiles="true" SkipUnchangedFiles="true" ContinueOnError="true" />
+    <Copy SourceFiles="@(ProjectFiles)" DestinationFolder="$(PluginTargetDir)\$(ProjectName)\" OverwriteReadOnlyFiles="true" SkipUnchangedFiles="true" ContinueOnError="true" />
+  </Target>
+</Project>

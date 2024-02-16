@@ -1,0 +1,13 @@
+{
+  "title": "അസുർ കമ്പ്യൂട്ടർ കാഴ്ച",
+  "description": "ഒരു നിശ്ചിത ചിത്രത്തെക്കുറിച്ച് വിവരണാത്മക വിവരങ്ങൾ നൽകുന്നു",
+  "version": "1.0.2.0",
+  "author": "Monkey",
+  "guid": "56024047-fe88-412d-aa65-1878ff088879",
+  "packageType": "Dll",
+  "readmeUrl": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/README.md",
+  "projectUrl": "https://github.com/monkeypaste/AzureComputerVision",
+  "packageUrl": "https://github.com/monkeypaste/AzureComputerVision/releases/download/v1.0.2.0/v1.0.2.0.zip",
+  "iconUri": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/icon.png",
+  "tags": "കമ്പ്യൂട്ടർ വിഷൻ, ഇമേജ് കണ്ടെത്തൽ, ഇമേജ് പ്രോസസ്സിംഗ്, അസൂർ, മൈക്രോസോഫ്റ്റ്, വ്യാഖ്യാനം, വർഗ്ഗീകരണം"
+}

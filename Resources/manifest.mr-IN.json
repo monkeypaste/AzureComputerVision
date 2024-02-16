@@ -1,0 +1,13 @@
+{
+  "title": "अझर संगणक दृष्टी",
+  "description": "दिलेल्या प्रतिमेबद्दल वर्णनात्मक माहिती प्रदान करते",
+  "version": "1.0.2.0",
+  "author": "Monkey",
+  "guid": "56024047-fe88-412d-aa65-1878ff088879",
+  "packageType": "Dll",
+  "readmeUrl": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/README.md",
+  "projectUrl": "https://github.com/monkeypaste/AzureComputerVision",
+  "packageUrl": "https://github.com/monkeypaste/AzureComputerVision/releases/download/v1.0.2.0/v1.0.2.0.zip",
+  "iconUri": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/icon.png",
+  "tags": "संगणक दृष्टी, प्रतिमा शोध, प्रतिमा प्रक्रिया, अझर, मायक्रोसॉफ्ट, भाष्य, वर्गीकरण"
+}

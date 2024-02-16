@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Adult" xml:space="preserve">
+    <value>ਬਾਲਗ</value>
+  </data>
+  <data name="Brands" xml:space="preserve">
+    <value>ਬ੍ਰਾਂਡ</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>ਵਰਗ</value>
+  </data>
+  <data name="Celebrities" xml:space="preserve">
+    <value>ਮਸ਼ਹੂਰ ਹਸਤੀਆਂ</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>ਰੰਗ</value>
+  </data>
+  <data name="Descrip" xml:space="preserve">
+    <value>ਵੇਰਵਾ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>ਇੱਕ ਦਿੱਤੇ ਚਿੱਤਰ ਬਾਰੇ ਵਰਣਨਸ਼ੀਲ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ</value>
+  </data>
+  <data name="DetailsLabel" xml:space="preserve">
+    <value>ਵੇਰਵਾ</value>
+  </data>
+  <data name="Faces" xml:space="preserve">
+    <value>ਚਿਹਰੇ</value>
+  </data>
+  <data name="FeaturesLabel" xml:space="preserve">
+    <value>ਵਿਜ਼ੂਅਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</value>
+  </data>
+  <data name="KeyDescription" xml:space="preserve">
+    <value>ਤੁਹਾਡੀ ਅਜ਼ੂਰ ਕੰਪਿ vin ਟਰ ਦਰਸ਼ਣ API ਕੁੰਜੀ.</value>
+  </data>
+  <data name="KeyLabel" xml:space="preserve">
+    <value>ਗਾਹਕੀ ਕੁੰਜੀ</value>
+  </data>
+  <data name="Landmarks" xml:space="preserve">
+    <value>ਨਿਸ਼ਾਨ</value>
+  </data>
+  <data name="Objects" xml:space="preserve">
+    <value>ਵਸਤੂਆਂ</value>
+  </data>
+  <data name="RegionDescription" xml:space="preserve">
+    <value>ਤੁਹਾਡੇ ਆਜੂਰ ਕੰਪਿ computer ਟਰ ਵਿਜ਼ਨ ਖਾਤੇ ਨਾਲ ਜੁੜੇ ਖੇਤਰ.</value>
+  </data>
+  <data name="RegionError" xml:space="preserve">
+    <value>ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਯੋਗ ਖੇਤਰ URL ਪ੍ਰਦਾਨ ਕੀਤਾ</value>
+  </data>
+  <data name="RegionLabel" xml:space="preserve">
+    <value>ਖੇਤਰ</value>
+  </data>
+  <data name="SignUpLabel" xml:space="preserve">
+    <value>ਸਾਇਨ ਅਪ</value>
+  </data>
+  <data name="Taggs" xml:space="preserve">
+    <value>ਟੈਗਸ</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>ਕੰਪਿ computer ਟਰ ਵਿਜ਼ਨ, ਚਿੱਤਰ ਖੋਜ, ਚਿੱਤਰ ਪ੍ਰਕਿਰਿਆ, ਅਜ਼ੂਰ, ਮਾਈਕਰੋਸਾਫਟ, ਐਨੋਟੇਸ਼ਨ, ਵਰਗੀਕਰਣ</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>ਅਜ਼ੂਰ ਕੰਪਿ computer ਟਰ ਵਿਜ਼ਨ</value>
+  </data>
+</root>

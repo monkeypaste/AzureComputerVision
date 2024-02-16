@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Adult" xml:space="preserve">
+    <value>వయోజన</value>
+  </data>
+  <data name="Brands" xml:space="preserve">
+    <value>బ్రాండ్లు</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>కేటగిరీలు</value>
+  </data>
+  <data name="Celebrities" xml:space="preserve">
+    <value>ప్రముఖులు</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>రంగు</value>
+  </data>
+  <data name="Descrip" xml:space="preserve">
+    <value>వివరణ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>ఇచ్చిన చిత్రం గురించి వివరణాత్మక సమాచారాన్ని అందిస్తుంది</value>
+  </data>
+  <data name="DetailsLabel" xml:space="preserve">
+    <value>వివరాలు</value>
+  </data>
+  <data name="Faces" xml:space="preserve">
+    <value>ముఖాలు</value>
+  </data>
+  <data name="FeaturesLabel" xml:space="preserve">
+    <value>దృశ్య లక్షణాలు</value>
+  </data>
+  <data name="KeyDescription" xml:space="preserve">
+    <value>మీ అజూర్ కంప్యూటర్ విజన్ API కీ.</value>
+  </data>
+  <data name="KeyLabel" xml:space="preserve">
+    <value>చందా కీ</value>
+  </data>
+  <data name="Landmarks" xml:space="preserve">
+    <value>మైలురాళ్ళు</value>
+  </data>
+  <data name="Objects" xml:space="preserve">
+    <value>వస్తువులు</value>
+  </data>
+  <data name="RegionDescription" xml:space="preserve">
+    <value>మీ అజూర్ కంప్యూటర్ విజన్ ఖాతాతో అనుబంధించబడిన ప్రాంతం.</value>
+  </data>
+  <data name="RegionError" xml:space="preserve">
+    <value>దయచేసి చెల్లుబాటు అయ్యే ప్రాంతం URL ను అందించారు</value>
+  </data>
+  <data name="RegionLabel" xml:space="preserve">
+    <value>ప్రాంతం</value>
+  </data>
+  <data name="SignUpLabel" xml:space="preserve">
+    <value>చేరడం</value>
+  </data>
+  <data name="Taggs" xml:space="preserve">
+    <value>టాగ్లు</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>కంప్యూటర్ విజన్, ఇమేజ్ డిటెక్షన్, ఇమేజ్ ప్రాసెసింగ్, అజూర్, మైక్రోసాఫ్ట్, ఉల్లేఖనం, వర్గీకరణ</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>అజూర్ కంప్యూటర్ విజన్</value>
+  </data>
+</root>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Adult" xml:space="preserve">
+    <value>Böyüklər</value>
+  </data>
+  <data name="Brands" xml:space="preserve">
+    <value>Markalar</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kateqoriyalar</value>
+  </data>
+  <data name="Celebrities" xml:space="preserve">
+    <value>Məşhurlar</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Rəng</value>
+  </data>
+  <data name="Descrip" xml:space="preserve">
+    <value>Təsvir</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Verilən bir görüntü haqqında təsviri məlumat verir</value>
+  </data>
+  <data name="DetailsLabel" xml:space="preserve">
+    <value>Təfərrüatlar</value>
+  </data>
+  <data name="Faces" xml:space="preserve">
+    <value>Üzü</value>
+  </data>
+  <data name="FeaturesLabel" xml:space="preserve">
+    <value>Vizual xüsusiyyətlər</value>
+  </data>
+  <data name="KeyDescription" xml:space="preserve">
+    <value>Azure Kompüter Vision API açarınız.</value>
+  </data>
+  <data name="KeyLabel" xml:space="preserve">
+    <value>Abunə açarı</value>
+  </data>
+  <data name="Landmarks" xml:space="preserve">
+    <value>Əlamətlər</value>
+  </data>
+  <data name="Objects" xml:space="preserve">
+    <value>Obyektlər</value>
+  </data>
+  <data name="RegionDescription" xml:space="preserve">
+    <value>Azure Kompüter Görmə Hesabınızla əlaqəli bölgə.</value>
+  </data>
+  <data name="RegionError" xml:space="preserve">
+    <value>Xahiş edirəm etibarlı bir bölgə URL təmin etdi</value>
+  </data>
+  <data name="RegionLabel" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="SignUpLabel" xml:space="preserve">
+    <value>Abunə olun</value>
+  </data>
+  <data name="Taggs" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Kompüter görmə, görüntü aşkarlanması, görüntü emalı, azure, microsoft, annotasiya, təsnifat</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Azure Kompüter Görüşü</value>
+  </data>
+</root>

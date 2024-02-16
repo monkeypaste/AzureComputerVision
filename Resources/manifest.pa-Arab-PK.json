@@ -1,0 +1,13 @@
+{
+  "title": "ਅਜ਼ੂਰ ਕੰਪਿ computer ਟਰ ਵਿਜ਼ਨ",
+  "description": "ਇੱਕ ਦਿੱਤੇ ਚਿੱਤਰ ਬਾਰੇ ਵਰਣਨਸ਼ੀਲ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ",
+  "version": "1.0.2.0",
+  "author": "Monkey",
+  "guid": "56024047-fe88-412d-aa65-1878ff088879",
+  "packageType": "Dll",
+  "readmeUrl": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/README.md",
+  "projectUrl": "https://github.com/monkeypaste/AzureComputerVision",
+  "packageUrl": "https://github.com/monkeypaste/AzureComputerVision/releases/download/v1.0.2.0/v1.0.2.0.zip",
+  "iconUri": "https://raw.githubusercontent.com/monkeypaste/AzureComputerVision/master/icon.png",
+  "tags": "ਕੰਪਿ computer ਟਰ ਵਿਜ਼ਨ, ਚਿੱਤਰ ਖੋਜ, ਚਿੱਤਰ ਪ੍ਰਕਿਰਿਆ, ਅਜ਼ੂਰ, ਮਾਈਕਰੋਸਾਫਟ, ਐਨੋਟੇਸ਼ਨ, ਵਰਗੀਕਰਣ"
+}
